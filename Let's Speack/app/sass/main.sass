@@ -1,0 +1,227 @@
+@import "colors"
+
+body
+ background-image: url("../img/slide3.jpg")
+ height: 100vh
+ background-repeat: no-repeat
+ background-size: 100%
+ 			
+ .top-header
+ 	background-image: linear-gradient(to bottom, #1c5e75, #1c6076)
+ 	height: 57px
+ 	border-bottom: 1px solid #a1a1a1
+ 	display: flex
+ 	width: 100%
+ 	align-items: center
+ 
+ .logo
+ 	padding: 19px 0 20px 0
+ 	margin-left: 5%
+ 	
+ .search-form
+ 	padding: 7px 0px 13px 0 
+ 	margin-left: 6%
+		.search-box
+			width: 843px
+			height: 36px
+			border: none 		
+ 
+ .user-information
+		margin-left: 5%
+		display: flex
+	.message
+		padding-right: 20px
+
+ .main-content
+ 		display: flex
+ 		justify-content: center
+ 		align-items: center
+ 		margin-top: 25%
+ 		&:before
+ 			content: url("../img/mockup.png")
+ 			padding-right: 20px
+ 			margin-bottom: 50px
+	.main-information
+			margin-right: 5%
+			margin-bottom: 10px
+			line-height: 25px
+ 		.main-info-headline
+ 			font-size: 40px
+ 			color: #fff
+ 			line-height: 25px
+ 		.subtitle
+ 			color: #fff
+ 			font-weight: bold
+ 			font-size: 	14px
+ .courses 
+ 	margin-right: 0.3%
+ 	.course-headline
+ 		font-size: 40px 
+ 		color: #fff
+ 	.lang-headline
+ 		font-size: 14px  
+ 		color: #fff
+ 		margin-top: -20px
+		margin-bottom: 25px
+
+.additional-information
+	width: 751px 
+	height: 334px 
+	border: 2px solid rgba(0, 0, 0, 0.09)
+	background-color: #fff
+	border-top: none
+	position: relative
+	&:before 
+		content: ""
+		height: 68px 
+		left: -1.9px
+		width: 1.9px
+		background-color: #fff
+		position: absolute
+	&:after
+		content: ""
+		height: 70px 
+		left: 737px
+		width: 1.8px
+		background-color: #fff
+		position: absolute
+		top: 0px
+
+	.study-inform
+		font-size: 24px
+		color: #000
+		text-align: left
+		font-weight: bold
+		padding-top: 70px
+		padding-left: 109px
+		position: relative
+		&:before
+			content: url("../img/new-mockup.png")
+			position: absolute
+			left: 55px
+			margin-top: 3px
+		&:after
+			content: url("../img/arrow.png")
+			right: 50px
+			position: absolute			 
+	.main-article
+		font-size: 14px
+		color: #000
+		text-align: left
+		font-weight: bold
+		padding: 0px 89px 94px 107px
+.courses-card
+	width: 240px
+	height: 420px
+	background-color: #fff
+	margin-left: 16px
+	display: flex
+	border: 2px solid rgba(0, 0, 0, 0.09)
+	.logo-item
+		background-color: #fff
+		width: 84px
+		height: 83px 
+		border: 2px solid rgba(0, 0, 0, 0.09)
+		margin: -15px 60px 0px 20px
+		z-index: 5
+		position: relative
+		img
+			padding: 14px 13px 14px 12px
+	.courses-star
+		align-self: flex-start
+		display: flex
+		margin: 17px 0px 0px 23px 
+	.main-logo
+		align-self: center
+		position: absolute
+		margin-left: 6px
+		margin-right: 6px
+		top: 55px
+		box-shadow: 0 11px 0 -0 rgba(0, 0, 0, .06)
+	.school
+		align-self: center
+		position: absolute
+		margin: 22px 0px 0 40px
+		color: #111
+		font-size: 17px
+		font-weight: 600
+		&:before
+			content: url("../img/new-mockup-2.png")
+			margin-left: -15px
+			margin-right: 7px
+			margin-bottom: 10px
+	.name
+		align-self: center
+		position: absolute
+		margin: 44px 0 0 60px
+		color: #111
+		font-size: 17px
+		font-weight: 600
+	.tutor
+		color: #111
+		position: absolute
+		align-self: center
+		font-size: 14px
+		margin: 7% 0 0 2%
+		font-weight: 600 
+		text-shadow: 1px 1px 1px #c9c9c9
+	.main-advantage
+		color: #111
+		position: absolute
+		align-self: center
+		font-size: 14px
+		margin: 8.5% 0 0 2%
+		font-weight: 600 
+		text-shadow: 1px 1px 1px #c9c9c9
+	.bottom-line
+			content: ""
+			height: 1px
+			width: 217px
+			background-color: #d1d1d1
+			margin: 11.5% 0 0 1%
+			position: absolute
+			align-self: center
+	.map-search
+		position: absolute
+		align-self: center
+		margin: 14% 0 0 2%
+	.country
+		position: absolute
+		align-self: center
+		margin: 14% 0 0 5%
+		color: #4c4c4c
+		text-shadow: 1px 1px 1px #c9c9c9
+		font-size: 14px
+	.city
+		position: absolute
+		align-self: center
+		margin: 16% 0 0 5%
+		сolor: #4c4c4c
+		text-shadow: 1px 1px 1px #c9c9c9
+		font-size: 14px
+
+.study-inform-repeat
+	background-color: #fff
+	width: 751px 
+	height: 100px
+	border: 2px solid rgba(0, 0, 0, 0.09)
+	margin: -70px 0 0 -13px
+	.study-inform-again
+		font-size: 24px
+		color: #000
+		text-align: left
+		font-weight: bold
+		padding-top: 30px
+		padding-left: 109px
+		position: relative
+		&:before
+			content: url("../img/new-mockup.png")
+			position: absolute
+			left: 55px
+			margin-top: 3px
+		&:after
+			content: url("../img/bottom-arrow.png")
+			right: 50px
+			position: absolute
+ 
+@import "media"
